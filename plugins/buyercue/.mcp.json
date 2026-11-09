@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "buyercue": {
+      "type": "http",
+      "url": "https://www.buyercue.io/mcp"
+    }
+  }
+}

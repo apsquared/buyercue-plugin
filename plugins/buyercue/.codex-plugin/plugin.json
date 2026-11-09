@@ -1,0 +1,36 @@
+{
+  "name": "buyercue",
+  "version": "0.1.0",
+  "description": "Find qualified B2B customers in BuyerCue, rank them against your offer using sourced evidence, and draft outreach you send yourself.",
+  "author": {
+    "name": "APSquared LLC",
+    "url": "https://www.buyercue.io"
+  },
+  "homepage": "https://www.buyercue.io/connect",
+  "repository": "https://github.com/apsquared/buyercue-plugin",
+  "license": "MIT",
+  "keywords": ["sales", "prospecting", "lead-generation", "b2b", "saas", "outreach"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "BuyerCue",
+    "shortDescription": "Find and qualify B2B customers",
+    "longDescription": "Search BuyerCue's index of software businesses with sourced, dated evidence that they pay for growth. Rank companies against your offer, unlock the ones that fit within the daily token limit you approve on BuyerCue, and draft evidence-based outreach for their public business contact routes. You review and send every message yourself.",
+    "developerName": "APSquared LLC",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://www.buyercue.io",
+    "privacyPolicyURL": "https://www.buyercue.io/privacy",
+    "termsOfServiceURL": "https://www.buyercue.io/terms",
+    "supportURL": "https://www.buyercue.io/contact",
+    "defaultPrompt": [
+      "Check my BuyerCue connection without spending tokens",
+      "Rank 15 new BuyerCue companies against my offer",
+      "Draft outreach for my unlocked BuyerCue leads"
+    ],
+    "brandColor": "#C6FF3D",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

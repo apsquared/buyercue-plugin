@@ -1,0 +1,18 @@
+{
+  "name": "buyercue",
+  "owner": {
+    "name": "APSquared LLC",
+    "url": "https://www.buyercue.io"
+  },
+  "metadata": {
+    "description": "BuyerCue plugins for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "buyercue",
+      "source": "./plugins/buyercue",
+      "description": "Find qualified B2B customers in BuyerCue, rank them against your offer, and draft evidence-based outreach.",
+      "category": "productivity"
+    }
+  ]
+}
